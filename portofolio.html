@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="English">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0 " />
+    <link rel="stylesheet" href="portofolio.css">
+    <title>Portofolio Andra</title>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+<body>
+<div id="header"> 
+    <div class="container">
+        <nav>
+            <H2 class="nama"><span>Andra</span></h2>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Service</a></li>
+                <li><a href="#portofolio">Work</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-text">
+             <p>Multimedia</p>
+             <h1>Halo saya <span>Andra</span> Dari Semarang</h1>
+        </div>
+    </div>
+</div>
+       
+
+<!----------------------------about------------------------>
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="profile.png">
+            </div>
+            <div class="about-col-2">
+                <h2 class="sub-title">About me</h2>
+                <p>My name is Diyandra Jagadditha or Andra Im from Semarang,Banyumanik. I Graduate at SMKN 11 Semarang with Multimedia vocation,
+                I like workout, listening music, watching football, playing football, edititing, designing.
+                </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skill')">Skill</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skill">
+                    <ul>
+                        <li><span>Web Development</span><br>Designing web/app interfaces</li>
+                        <li><span>Graphic Design</span><br>Designing poster/illustration</li>
+                        <li><span>3D Animation</span><br>Making 3D Short Animation </li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>BPPMP Jateng</span><br>6 Month intern at BPPMP Jateng</li>
+                        <li><span></span><br></li>
+                        <li><span></span><br></li>
+                    </ul>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>SMKN 11 Semarang </span><br> MULTIMEDIA "2021-2024</li>
+                        <li><span>Lorem ipsum </span><br>Lorem ipsum dolor sit amet c</li>
+                        <li><span>Lorem ipsum </span><br>Lorem ipsum dolor sit amet c</li>
+                    </ul>
+                
+            </div>
+        </div>
+    </div>
+</div>   
+<!-------------------------------------------service----------------------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Service</h1>
+        <div class="services-list">
+            <div>
+                <ion-icon name="earth-outline"></ion-icon>
+                <h2>Web Design</h2>
+                <p>Web design is the creation of websites and pages to 
+                reflect a company's brand and information and 
+                ensure a user-friendly experience. Appearance and design are incorporated as vital.</p>
+                <a href="#">learn more</a>
+            </div>
+            <div>
+                <ion-icon name="color-palette-outline"></ion-icon>
+                <h2>Graphic Design</h2>
+                <p>A graphic designer is a professional within the graphic design and 
+                 graphic arts industry who assembles together images, typography, or
+                 motion graphics to create a piece of design. </p>
+                <a href="#">learn more</a>
+            </div>
+            <div>
+                <ion-icon name="film-outline"></ion-icon>
+                <h2>3D/2D Animation</h2>
+                <p>3D animation is the process of creating 
+                moving images in a three-dimensional (3D) environment,
+                giving the illusion that these digital objects are moving through a 3D space.</p>
+                <a href="#">learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!---------------------portofolio------------------------->
+<div id="portofolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="work.png">
+                <div class="layer">
+                    <h3>Web Developer</h3>
+                    <p>simple website</p>
+                    <a href="images.html"><ion-icon name="ellipsis-horizontal-outline"></ion-icon></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work 2.png">
+                <div class="layer">
+                    <h3>3D animation</h3>
+                    <p>3D animation for cafe</p>
+                    <a href="images.html"><ion-icon name="ellipsis-horizontal-outline"></ion-icon></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work 3.png">
+                <div class="layer">
+                    <h3>Logo Design</h3>
+                    <p>I Desiging logo for bussiness</p>
+                    <a href="images.html"><ion-icon name="ellipsis-horizontal-outline"></ion-icon></a>
+                </div>
+            </div>
+        </div>
+        <a href="images.html" class="btn" >See more</a>
+    </div>
+</div>
+<!---------------------portofolio------------------------->
+<div id="contact">
+  <div class="container">
+    <div class="row">
+        <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><ion-icon name="at-outline"></ion-icon>andrajagadditha@gmail.com</p>
+            <p><ion-icon name="paper-plane"></ion-icon>081226736812</p>
+            <div class="social-icon"> 
+                <a href="https://www.facebook.com/"><ion-icon name="logo-facebook"></ion-icon></a>
+                <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+                <a href="https://www.instagram.com/andrajgdt/"><ion-icon name="logo-instagram"></ion-icon></a>
+                <a href="#"><ion-icon name="logo-linkedin"></ion-icon></a>
+            </div>
+            <a href="" class="btn btn2">Download CV</a>
+        </div>
+        <div class="contact-right">
+           <form>
+            <input type="text" name="name" placeholder="your name" required>
+            <input type="email" name="email" placeholder="your email">
+            <textarea name="message" rows="6" placeholder="your message"></textarea>
+            <button type="submit" class="btn btn2">submit</button>
+           </form>
+        </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links")
+    var tabcontents = document.getElementsByClassName("tab-contents")
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+
+
+    }
+</script>
+
+</body>
+</html>
